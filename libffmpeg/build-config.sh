@@ -10,7 +10,7 @@ PREBUILT=${NDK}/toolchains/arm-linux-androideabi-4.4.3/prebuilt/windows
 CROSS_PREFIX=${PREBUILT}/bin/arm-linux-androideabi-
 ARM_INCLUDE=${SYSROOT}/usr/include
 ARM_LIB=${SYSROOT}/usr/lib
-PREFIX=../../libffmpeg
+PREFIX=../jni/libffmpeg
 OPTIMIZE_CFLAGS=" -marm -march=armv6 "
 ADDITIONAL_CONFIGURE_FLAG=
 
